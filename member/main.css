@@ -1,0 +1,100 @@
+/*
+header tag 의 background-color 와 color 속성을 변경했더니
+h1 tag, p tag 로 구성된 Text 들의 속성이 같이 변경되었다
+
+h1 tag와 p tag 는 header tag 가 감싸고 있는 형태이다
+이 때 header tag 를 부모 tag 라고 하고,
+h1과 p를 header tag의 child tag 라고 한다.
+
+부모 tag 의 속성을 설정하면 child tag의 속성도 같이 변화된다.
+(단, 일부는 그렇지 않다)
+*/
+
+header {
+  background-color: cornflowerblue;
+  color: white;
+  text-align: center;
+  /* 
+  화면에 여백, 글자크기, box 의 크기등을 표현할 때
+  px, pt, % 등의 단위를 사용한다
+  이 단위들은 보통 고정값으로 화면의 크기등을 고려하지 않는 경우가 많다
+  rem(em) 은 주변의 글자 크기에 따라서 비례적으로 단위를 적용한다. 
+  기본값을 16px 대비 배율로 표현한다
+  1rem : 16px
+  1.2rem : (16 * 1.2) 로 보면 된다.
+  */
+  padding: 1rem;
+}
+
+/*
+nav tag 의 바탕색과 글자색을 변경했다.
+이 때 nav tag 가 감싸고 있는 child tag 에도 당연히
+전파가 될 것으로 생각하였으나,
+nav tag의 child 인 a tag 는 글자색이 변경되지 않았다.
+*/
+nav {
+  background-color: bisque;
+  color: crimson;
+}
+
+/* 
+a tag 는 특성상 부모의 color 속성을 상속받지 않는다.
+따라서 부모 tag color 와 일치 시키기 위하여
+a tag 의 color 속성을 부모 tag 의 color 와 같게 해주어야 한다.
+
+그런데, 부모의 color 를 변경할 때마다 a tag 의 color 도 
+변경해야 하는 번거로움이 있다.
+
+이럴 때는 color 를 임의의 값으로 하지 않고 inherit 키워드를 사용한다.
+
+부모(nav)의 color 속성을 변경하면 a tag의 color 속성도 같이 변경된다.
+ */
+a {
+  color: inherit;
+  text-decoration: none;
+
+  padding: 16px;
+  /* 
+  a tag 는 기본 속성이 inline 이다.
+  보통 inline tag 는 margin 과 padding, width, height 등의
+  크기를 조절하는 속성이 적용이 잘 안된다.
+  그래서 a tga 에 margin, padding 등을 적용할 때는
+  성질을 inline-block 으로 변경해 주어야 한다.
+  inline-block 성질은 inline 이면서 box tag 의 속성도 일부
+  같이 포함하는 성질을 갖게 된다.
+  */
+  display: inline-block;
+  border: 1px solid white;
+}
+
+section {
+  border: 1px solid green;
+}
+
+article {
+  border: 1px solid red;
+  margin: 10px;
+}
+
+footer {
+  /* 
+    css에서 색상 값을 표현하는 방법
+    1. 색상 문자열을 사용하는 방법
+    2. rgb() : 빛의 3원색을 0 ~ 255까지 범위로 각각 지정하여
+        색을 표현하는 방법
+    3. rgba() : 빛의 3원색과 alpha 값(투명도, opecity) 를
+        각각 지정하여 색과 농도를 표현하는 방법
+    4. 16진수 문자열로 표현하는 방법 
+        #RGB 색상을 16진수 문자열로 표현한다.
+        각각 RGB 는 00 ~ FF 까지 값을 갖는다.
+     */
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.3);
+  /* 16진수 문자열로 표현하기 */
+  background-color: #52a84f;
+  background-color: #334455;
+  background-color: #345;
+
+  text-align: center;
+  padding: 10px;
+}
