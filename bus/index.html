@@ -6,26 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>시외버스</title>
     <link rel="stylesheet" href="/bus/main.css" />
+    <script type="text/javascript" src="index.js"></script>
   </head>
   <body>
     <header>
-      <h2>시외버스</h2>
-      <h1>로그인</h1>
+      <h1><a href="index.html">시외버스</a></h1>
     </header>
+    <div id="loginjoin">
+      <span id="login">로그인</span>
+      <span id="join"><a href="join.html">회원가입</a></span>
+    </div>
 
     <nav>
-      <span><button>지역 선택</button></span>
-      <span><button>즐겨찾기</button></span>
-      <span><button>도착지 검색</button></span>
+      <span>
+        <button
+          class="menu"
+          id="selectArea"
+          onmouseover="showBar()"
+          onmouseleave="hideBar()"
+        >
+          지역 선택
+        </button>
+      </span>
+      <span>
+        <button class="menu">
+          <a href="busstop.html">도착지 검색</a>
+        </button>
+      </span>
+      <span>
+        <button class="menu">
+          <a href="usuallyBus.html">즐겨찾기</a>
+        </button>
+      </span>
     </nav>
+    <!-- <select id="dropdown" size="3">
+      <option value="1">광주종합버스터미널(유스퀘어)</option>
+      <option value="2">광주송정역버스정류소</option>
+      <option value="3">김대중컨벤션센터</option>
+      <option value="4">문화동버스정류소</option>
+      <option value="5">송정리정류소</option>
+    </select> -->
+
+    <div id="list" style="display: none">
+      <div>정류장 리스트</div>
+      <div class="sort">
+        <span>ㄱ</span>
+        <span>ㄴ</span>
+        <span>ㄷ</span>
+        <span>ㄹ</span>
+        <span>ㅁ</span>
+        <span>ㅂ</span>
+        <span>ㅅ</span>
+        <span>ㅇ</span>
+        <span>ㅈ</span>
+        <span>ㅊ</span>
+        <span>ㅋ</span>
+        <span>ㅌ</span>
+        <span>ㅍ</span>
+        <span>ㅎ</span>
+      </div>
+      <div id="busstop">
+        <li>광주종합버스터미널(유스퀘어)</li>
+        <li>광주송정역버스정류소</li>
+        <li>김대중컨벤션센터</li>
+        <li>문화동버스정류소</li>
+        <li>송정리정류소</li>
+      </div>
+    </div>
 
     <section>
       <input placeholder="출발" />
-      <span>ㅡㅡ></span>
+      <span>→</span>
       <input placeholder="도착" />
       <span>
         <button>
-          <a href="busstop.html"> 조회 </a>
+          <a href="busstop.html" id="search"> 조회 </a>
         </button>
       </span>
     </section>

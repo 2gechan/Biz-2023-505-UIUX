@@ -1,0 +1,42 @@
+html {
+  background-image: url(image.jpg);
+  background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+header {
+  flex: 4;
+  text-align: center;
+  margin: 30px;
+  font-size: 30px;
+  color: goldenrod;
+}
+
+header h1 {
+  color: khaki;
+  font-weight: bold;
+  /* font-size: 50px; */
+  margin-bottom: 20px;
+}
+
+div#list {
+  flex: 4;
+}
+
+footer {
+  flex: 2;
+}
