@@ -46,7 +46,6 @@ article {
   flex: 1;
   margin: 5px;
   border: 1px solid green;
-  height: 500px;
 }
 
 /* class 가 dash-title인 p tag */
@@ -63,4 +62,7 @@ p.dash-title:hover {
 }
 
 footer {
+  background-color: rgb(224, 224, 224);
+  text-align: center;
+  padding: 0.7rem;
 }
