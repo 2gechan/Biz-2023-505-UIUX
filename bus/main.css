@@ -1,10 +1,10 @@
 html {
-  background-image: url(image.jpg);
-  background-size: cover;
+  /* background-image: url(image.jpg);
+  background-size: cover; */
 }
 * {
   box-sizing: border-box;
-
+  background-color: bisque;
   margin: 0;
   padding: 0;
 }
@@ -69,7 +69,7 @@ a {
   width: 1000px;
   height: 500px;
   padding: 3px 60px 3px 3px;
-  color: bisque;
+  color: coral;
   font-size: 150%;
   padding: 30px;
 }
