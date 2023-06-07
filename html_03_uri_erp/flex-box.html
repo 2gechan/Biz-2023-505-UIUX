@@ -11,16 +11,44 @@
         margin: 0;
         padding: 0;
       }
+      section {
+        display: flex;
+        /* flex-item 을 row 방향으로 할지 column 방향으로 할지 */
+        flex-direction: column;
+        flex-direction: row;
+
+        /* flex-item 을 자동 줄바꿈을 할지 말지 */
+        flex-wrap: wrap; /* 자동 줄바꿈 x */
+        flex-wrap: nowrap; /* 자동 줄바꿈 */
+        /* row와 wrap 을 한번에 사용할 때 flow를 사용 */
+        flex-flow: row wrap;
+      }
+
       div {
+        /* flex-item box 의 width 를 1:1:1... 비율로 자동 조절 */
+        /* flex: 1; */
+        /* flex-grow: 1; 늘어나는 박스의 크기를 비율로 조정 */
+        flex-grow: 0;
+        flex-shrink: 1;
+        /* box 의 기본 크기 지정 */
+        flex-basis: 200px;
+        flex-basis: auto;
+
+        flex: 0 1 100px;
+
         border: 1px solid green;
         padding: 1rem;
         margin: 5px;
-        width: 200px;
       }
     </style>
   </head>
   <body>
     <section>
+      <div>flex item 1</div>
+      <div>flex item 2</div>
+      <div>flex item 3</div>
+      <div>flex item 4</div>
+      <div>flex item 5</div>
       <div>flex item 1</div>
       <div>flex item 2</div>
       <div>flex item 3</div>

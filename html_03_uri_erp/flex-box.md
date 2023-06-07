@@ -26,3 +26,12 @@
 - block 속성의 성질과, inlin 속성의 성질을 함께 포함하는 속성
 - 이 속성은 기본 display 속성을 변경하여 표현되는 성질을 변경하는 것
 - block 속성의 tag 를 inlin-block 으로 변경한 후 width 속성을 설정하면 실제 보여지는 width와 영역 width가 같아진다.
+- inline 속성의 tag 를 inline-block 으로 변경하면 width 지정이 가능하고, padding 등을 사용할 수 있다.
+
+## display: flex 속성
+
+- css2 에서 추가된 display 속성중에 flex 속성과 grid 속성이 있다.
+- flex 속성은 화면 layout 을 만드는데 혁신적인 변화를 가져온 속성이다.
+- `display:flex` 속성은 부모 box tag 에 지정하는 style
+- 부모 tag 에 `display: flex` 속성이 지정되면 `child tag` 들은 자동으로 `display: flex-item` 속성으로 변경된다.
+- `display: flex-item` 속성을 받는 `child tag` 들은 기본적으로 `inline-block` 성질을 갖게되고 추가로 독특한 속성 설질을 부여 받게된다.
