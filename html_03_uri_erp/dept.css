@@ -142,7 +142,7 @@ article.dept input {
   /* width: 60%; */
   flex: 2;
   border-radius: 5px;
-  outline: 1 yellow;
+  outline: none;
   border: 1px solid #aaa;
 }
 

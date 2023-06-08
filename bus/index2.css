@@ -48,25 +48,26 @@ section {
 
 article {
   flex: 1;
-  margin-top: 30px;
-  margin: 40px 20px;
+  margin: 40px 40px;
   background-color: skyblue;
-  border: 1px solid black;
-  height: 250px;
+  height: 230px;
   color: dodgerblue;
+  border: 2px solid rgb(45, 17, 168);
+  border-radius: 10px;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
 }
 
 article a {
   transition: 0.7s;
+  font-size: 25px;
+}
+
+img {
+  margin-top: 10px;
 }
 
 article a:hover {
   border-bottom: 3px solid rgb(255, 230, 0);
-}
-
-article div {
-  margin-top: 90px;
 }
 
 div.line {
