@@ -1,17 +1,18 @@
 * {
-  background-color: bisque;
+  background-color: rgb(145, 200, 221);
 }
 
 body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  height: 100%;
 }
 
 .wrapper {
   width: 540px;
-  height: 960px;
-  border: 1px solid #aacdff;
+  height: 100%;
+  border: 1px solid #000103;
   box-shadow: 7px 7px 39px rgba(0, 104, 255, 0.25);
   border-radius: 20px;
   display: flex;
@@ -45,13 +46,13 @@ a {
 .form {
   width: 380px;
   height: 60px;
-  background: #ffffff;
+  background: #b9def3;
   border: 1px solid #d2d2d2;
   border-radius: 7px;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #797979;
+  color: #110c0c;
 }
 
 .phoneNumber {

@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" modified="2023-06-07T00:48:21.341Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="RlRgzqMjkl6VL7TWGphD" version="21.3.6" type="device">
+  <diagram name="페이지-1" id="P-nhcVzdAqM8cpPWEyOv">
+    <mxGraphModel dx="1434" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jme9kZwfLJzhkIxeU0u1-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jme9kZwfLJzhkIxeU0u1-1" target="jme9kZwfLJzhkIxeU0u1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jme9kZwfLJzhkIxeU0u1-1" value="관리자" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="260" width="110" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="jme9kZwfLJzhkIxeU0u1-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jme9kZwfLJzhkIxeU0u1-2" target="jme9kZwfLJzhkIxeU0u1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jme9kZwfLJzhkIxeU0u1-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jme9kZwfLJzhkIxeU0u1-2" target="jme9kZwfLJzhkIxeU0u1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jme9kZwfLJzhkIxeU0u1-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jme9kZwfLJzhkIxeU0u1-2" target="jme9kZwfLJzhkIxeU0u1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jme9kZwfLJzhkIxeU0u1-2" value="거래처리스트보기" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="305" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jme9kZwfLJzhkIxeU0u1-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jme9kZwfLJzhkIxeU0u1-3" target="jme9kZwfLJzhkIxeU0u1-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jme9kZwfLJzhkIxeU0u1-3" value="거래처추가" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="250" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jme9kZwfLJzhkIxeU0u1-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jme9kZwfLJzhkIxeU0u1-4" target="jme9kZwfLJzhkIxeU0u1-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jme9kZwfLJzhkIxeU0u1-4" value="거래처 상세보기" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="375" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jme9kZwfLJzhkIxeU0u1-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jme9kZwfLJzhkIxeU0u1-5" target="jme9kZwfLJzhkIxeU0u1-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jme9kZwfLJzhkIxeU0u1-5" value="거래처 수정" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="505" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jme9kZwfLJzhkIxeU0u1-10" value="거래처 정보 Table" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="360" width="180" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
