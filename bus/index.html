@@ -5,77 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>시외버스</title>
-    <link rel="stylesheet" href="/bus/main.css" />
-    <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <header>
-      <h1><a href="index.html">시외버스</a></h1>
-    </header>
-    <div id="loginjoin">
-      <span id="login">로그인</span>
-      <span id="join"><a href="join.html">회원가입</a></span>
-    </div>
-
-    <nav>
-      <span>
-        <button
-          class="menu"
-          id="selectArea"
-          onmouseover="showBar()"
-          onmouseleave="hideBar()"
-        >
-          지역 선택
-        </button>
-      </span>
-      <span>
-        <button class="menu">
-          <a href="busstop.html">도착지 검색</a>
-        </button>
-      </span>
-      <span>
-        <button class="menu">
-          <a href="usuallyBus.html">즐겨찾기</a>
-        </button>
-      </span>
-    </nav>
-
-    <div id="list" style="display: none">
-      <div>정류장 리스트</div>
-      <div class="sort">
-        <span>ㄱ</span>
-        <span>ㄴ</span>
-        <span>ㄷ</span>
-        <span>ㄹ</span>
-        <span>ㅁ</span>
-        <span>ㅂ</span>
-        <span>ㅅ</span>
-        <span>ㅇ</span>
-        <span>ㅈ</span>
-        <span>ㅊ</span>
-        <span>ㅋ</span>
-        <span>ㅌ</span>
-        <span>ㅍ</span>
-        <span>ㅎ</span>
+    <div id="all">
+      <div id="black">
+        <div id="red"></div>
+        <div id="yellow"></div>
+        <div id="green"></div>
       </div>
-      <div id="busstop">
-        <li>광주종합버스터미널(유스퀘어)</li>
-        <li>광주송정역버스정류소</li>
-        <li>김대중컨벤션센터</li>
-        <li>문화동버스정류소</li>
-        <li>송정리정류소</li>
+      <div id="full">
+        <div id="top">
+          <div id="title_top">
+            <h1>시외버스</h1>
+            <h1><a href="login.html">로그인</a></h1>
+            <h1><a href="join.html">회원가입</a></h1>
+          </div>
+          <section>
+            <article>
+              <div class="select">
+                <a href=""
+                  >노선 조회
+                  <img src="지도.jpg" width="160px" height="160px" />
+                </a>
+              </div>
+            </article>
+            <article>
+              <div class="select">
+                <a href="">
+                  터미널 위치 조회
+                  <img src="터미널위치.png" width="160px" height="160px" />
+                </a>
+              </div>
+            </article>
+            <article>
+              <div class="select">
+                <a href="usuallyBus.html"
+                  >즐겨찾기
+                  <img src="즐겨찾기.png" width="160px" height="160px"
+                /></a>
+              </div>
+            </article>
+            <article>
+              <div class="select">
+                <a
+                  href="https://www.usquare.co.kr/kor/usquare/reservation.do?mode=reservationList&srCategoryId1=9"
+                  >예매 사이트 이동<img
+                    src="버스티켓.png"
+                    width="160px"
+                    height="160px"
+                /></a>
+              </div>
+            </article>
+          </section>
+        </div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div id="light"></div>
+        <!-- <div id="full-bottom">
+        <input class="arrow" placeholder="출발지" />
+        <div>→</div>
+        <input class="arrow" placeholder="목적지" />
+        <button>조회</button>
+      </div> -->
       </div>
     </div>
-
-    <section>
-      <input placeholder="출발" />
-      <span>→</span>
-      <input placeholder="도착" />
-      <span>
-        <button>
-          <a href="busstop.html" id="search"> 조회 </a>
-        </button>
-      </span>
-    </section>
+    <div id="bottom">
+      <div id="front"></div>
+      <div id="back"></div>
+    </div>
   </body>
 </html>

@@ -13,8 +13,6 @@ body {
   height: 90%;
   width: 100%;
   background-color: rgb(208, 233, 248);
-  transform: scale(1);
-  transition: 1s;
 }
 
 div#all {
@@ -65,7 +63,7 @@ a {
 
 div#full {
   background-color: burlywood;
-  margin: 70px 50px 0 200px;
+  margin: 70px 50px -70px 200px;
   height: 600px;
   width: 1300px;
   border-radius: 20px;
