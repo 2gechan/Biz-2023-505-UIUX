@@ -1,28 +1,15 @@
-const black = document.querySelector("#black");
-const red = document.querySelector("#red");
-const yellow = document.querySelector("#yellow");
-const green = document.querySelector("#green");
+const circles = document.querySelectorAll(".circle"); //[7]
+let activeLight = 0; //[8]
+setInterval(changeLight, 1000);
 
-const intervalArr = [];
+function changeLight() {
+  circles[activeLight].className = "circle"; // [10] remove init color
+  activeLight++;
 
-const off = () => {
-  red.style.backgroundColor = "white";
-  yellow.style.backgroundColor = "white";
-  green.style.backgroundColor = "white";
-  const intervalId = setInterval(on, 2000);
-  intervalArr.push(intervalId);
-  for (let i = 0; i < intervalArr; i++) {
-    clearInterval(intervalArr[i]);
+  if (activeLight > 2) {
+    activeLight = 0;
   }
-};
 
-const on = () => {
-  red.style.backgroundColor = "red";
-  yellow.style.backgroundColor = "yellow";
-  green.style.backgroundColor = "green";
-};
-
-setInterval(off, 2000);
-// black.addEventListener("click", () => {
-//   setInterval(off, 1000);
-// });
+  const currentLight = circles[activeLight]; //[11]
+  currentLight.classList.add(currentLight.getAttribute("color")); //[12], [13]
+}
