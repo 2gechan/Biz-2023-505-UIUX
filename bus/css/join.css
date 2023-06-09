@@ -21,7 +21,10 @@ body {
   justify-content: space-around;
   padding: 50px;
 }
-
+h1 {
+  height: 50px;
+  font-size: 60px;
+}
 a {
   text-decoration: none;
 }
@@ -30,9 +33,11 @@ a {
   width: 380px;
   height: 47px;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 50px;
   line-height: 47px;
   color: #0068ff;
+  text-align: center;
+  font-family: "Dongle", sans-serif;
 }
 
 .form_main {
@@ -46,79 +51,24 @@ a {
 .form {
   width: 380px;
   height: 60px;
+  padding-left: 7px;
   background: #b9def3;
   border: 1px solid #d2d2d2;
   border-radius: 7px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 23px;
+  font-family: "Dongle", sans-serif;
   line-height: 24px;
   color: #110c0c;
-}
-
-.phoneNumber {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 380px;
-  height: 40px;
-}
-
-.numberForm {
-  width: 100px;
-  background: #ffffff;
-  border: 1px solid #d2d2d2;
-  border-radius: 7px;
-}
-
-.auth1 {
-  width: 380px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-
-.authNumber {
-  width: 60px;
-  height: 27px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 27px;
-  text-align: right;
-  color: #0068ff;
-}
-
-.authSend {
-  width: 120px;
-  height: 40px;
-  background: #ffffff;
-  border: 1px solid #d2d2d2;
-  border-radius: 7px;
-  margin-left: 13px;
-}
-
-.timer {
-  width: 60px;
-  height: 27px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 27px;
-  text-align: right;
-  color: #0068ff;
-}
-
-.timerBtn {
-  width: 120px;
-  height: 40px;
-  background: #ffffff;
-  border: 1px solid #d2d2d2;
-  border-radius: 7px;
-  margin-left: 13px;
 }
 
 .area {
   width: 380px;
   height: 60px;
-  background: #ffffff;
+  padding-left: 7px;
+  font-size: 23px;
+  font-family: "Dongle", sans-serif;
+  background: #b9def3;
   border: 1px solid #d2d2d2;
   border-radius: 7px;
 }
@@ -128,6 +78,8 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  font-size: 23px;
+  font-family: "Dongle", sans-serif;
 }
 
 .divideLine {
@@ -142,8 +94,14 @@ a {
   border: 1px solid #0068ff;
   border-radius: 10px;
   font-weight: 400;
-  font-size: 18px;
   line-height: 27px;
   text-align: center;
   color: #0068ff;
+  font-size: 27px;
+  font-family: "Dongle", sans-serif;
+}
+
+.signUp:hover {
+  background-color: #b9def3;
+  cursor: pointer;
 }

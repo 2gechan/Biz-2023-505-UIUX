@@ -20,7 +20,6 @@ div#all {
 }
 
 .container {
-  /*[3]*/
   width: 70px;
   height: 200px;
   border-radius: 50px;
@@ -30,7 +29,9 @@ div#all {
   justify-content: space-between; /*요소 사이에 공간을 두고 배치*/
   flex-direction: column; /*세로 정렬*/
   padding: 15px;
-  margin: 10px;
+  margin-top: 30px;
+  margin-left: 40px;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.7);
 }
 
 .circle {
@@ -70,7 +71,7 @@ a {
   text-decoration: none;
   color: inherit;
   display: block;
-  padding-bottom: 25px;
+  padding-bottom: 10px;
 }
 
 div#full {
@@ -80,10 +81,11 @@ div#full {
   width: 1300px;
   border-radius: 20px;
   border: 1px solid rgba(128, 31, 173, 0.7);
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.7);
 }
 
 div#top {
-  background-color: rgb(139, 243, 139);
+  background-color: rgb(142, 214, 243);
   border-radius: 20px;
   height: 350px;
 }
@@ -103,15 +105,19 @@ div h1:nth-of-type(3) {
 }
 
 div h1 {
-  color: green;
-  padding-top: 10px;
+  color: rgb(36, 105, 233);
+  padding-top: 5px;
   margin-left: 30px;
+  font-size: 50px;
+  font-family: "Dongle", sans-serif;
 }
 div h1 a {
+  height: 70px;
   transition: 0.5s;
+  font-family: "Dongle", sans-serif;
 }
 div h1 a:hover {
-  border-bottom: 3px solid green;
+  border-bottom: 3px solid rgb(90, 147, 201);
 }
 
 section {
@@ -122,30 +128,33 @@ section {
 article {
   flex: 1;
   margin: 20px 40px;
-  background-color: rgb(143, 203, 226);
-  height: 230px;
+  background-color: #dfd0d0b9;
+  height: 190px;
   color: darkblue;
-  border: 2px solid rgb(45, 17, 168);
   border-radius: 10px;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  box-shadow: 2px 2px 2px rgba(56, 54, 54, 0.7);
 }
 
 div.select {
   border-radius: 10px;
   transition: 0.5s;
-  height: 228px;
+  height: 190px;
+  margin-bottom: 15px;
 }
 
 div.select:hover {
-  background-color: cornflowerblue;
+  background-color: rgb(171, 185, 224);
+  cursor: pointer;
 }
 
 article a {
-  font-size: 25px;
+  display: inline;
+  font-size: 30px;
+  font-family: "Dongle", sans-serif;
 }
 
-img {
-  margin-top: 10px;
+article a:hover {
+  border-bottom: 2px solid lightgray;
 }
 
 div.line {
@@ -167,15 +176,17 @@ div#bottom {
 }
 
 div#front {
-  background-color: black;
+  background-color: darkslategray;
   width: 180px;
   height: 180px;
   border-radius: 90px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
 }
 
 div#back {
-  background-color: black;
+  background-color: darkslategray;
   width: 180px;
   height: 180px;
   border-radius: 90px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
 }

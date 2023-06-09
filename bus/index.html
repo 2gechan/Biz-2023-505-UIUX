@@ -5,8 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>시외버스</title>
-    <link rel="stylesheet" href="index.css" />
-    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/index.js" defer></script>
   </head>
   <body>
     <div id="all">
@@ -24,39 +30,38 @@
           </div>
           <section>
             <article>
-              <div class="select">
-                <a href=""
-                  >노선 조회
-                  <img src="지도.jpg" width="160px" height="160px" />
-                </a>
+              <div class="select" onclick="location.href='';">
+                <img
+                  src="etc/Korea Map Transparent.PNG"
+                  width="125px"
+                  height="175px"
+                />
               </div>
+              <a href="">노선 조회 </a>
             </article>
             <article>
-              <div class="select">
-                <a href="">
-                  터미널 위치 조회
-                  <img src="터미널위치.png" width="160px" height="160px" />
-                </a>
+              <div class="select" onclick="location.href='serachArea.html';">
+                <img src="etc/터미널위치.png" width="125px" height="175px" />
               </div>
+              <a href="serachArea.html"> 터미널 위치 조회 </a>
             </article>
             <article>
-              <div class="select">
-                <a href="usuallyBus.html"
-                  >즐겨찾기
-                  <img src="즐겨찾기.png" width="160px" height="160px"
-                /></a>
+              <div class="select" onclick="location.href='usuallyBus.html';">
+                <img src="etc/즐겨찾기.png" width="125px" height="175px" />
               </div>
+              <a href="usuallyBus.html">즐겨찾기 </a>
             </article>
             <article>
-              <div class="select">
-                <a
-                  href="https://www.usquare.co.kr/kor/usquare/reservation.do?mode=reservationList&srCategoryId1=9"
-                  >예매 사이트 이동<img
-                    src="버스티켓.png"
-                    width="160px"
-                    height="160px"
-                /></a>
+              <div
+                class="select"
+                onclick="location.href='https://www.usquare.co.kr/kor/usquare/reservation.do?mode=reservationList&srCategoryId1=9';"
+              >
+                <img src="etc/bus.png" width="125px" height="175px" />
               </div>
+              <a
+                href="https://www.usquare.co.kr/kor/usquare/reservation.do?mode=reservationList&srCategoryId1=9"
+                >예매 사이트 이동</a
+              >
             </article>
           </section>
         </div>
