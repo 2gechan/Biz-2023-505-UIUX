@@ -10,8 +10,8 @@ body {
 }
 
 .wrapper {
-  width: 540px;
-  height: 100%;
+  width: 700px;
+  height: 90%;
   border: 1px solid #000103;
   box-shadow: 7px 7px 39px rgba(0, 104, 255, 0.25);
   border-radius: 20px;
@@ -19,21 +19,21 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  padding: 50px;
+  margin: 40px;
+  padding: 0 50px 50px 50px;
 }
-h1 {
-  height: 50px;
-  font-size: 60px;
-}
+
 a {
   text-decoration: none;
+  height: 70px;
+  font-size: 70px;
 }
 
 .signUpTitle {
   width: 380px;
   height: 47px;
-  font-weight: 700;
-  font-size: 50px;
+  font-weight: bold;
+  font-size: 3em;
   line-height: 47px;
   color: #0068ff;
   text-align: center;
