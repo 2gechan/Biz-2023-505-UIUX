@@ -18,12 +18,10 @@ body {
 }
 
 .wrapper {
-  padding: 30px;
   background-color: rgb(108, 190, 241);
   width: 80%;
   height: 90%;
   margin-top: 50px;
-  padding: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;

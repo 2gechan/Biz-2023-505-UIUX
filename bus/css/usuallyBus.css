@@ -42,7 +42,7 @@ div#middle {
   background-color: rgb(108, 190, 241);
   width: 80%;
   margin-top: 50px;
-  padding: 60px;
+  padding: 0 60px 60px 60px;
   display: flex;
   flex-direction: column;
   border: 2px solid rgba(89, 153, 226, 0.7);
