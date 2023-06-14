@@ -77,8 +77,26 @@ a {
   font-size: 25px;
   line-height: 24px;
   color: #797979;
-  padding-left: 7px;
+  padding-left: 10px;
   font-family: "Dongle", sans-serif;
+}
+
+#auto_login {
+  width: 380px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+div#auto_login input {
+  margin-left: 10px;
+  width: 15px;
+}
+
+div#auto_login span {
+  padding-left: 10px;
+  color: #797979;
+  font-family: "Dongle", sans-serif;
+  font-size: 30px;
 }
 
 .login {
@@ -94,6 +112,7 @@ a {
   color: white;
   font-weight: bold;
   font-family: "Dongle", sans-serif;
+  margin-top: -30px;
 }
 
 .login:hover {
