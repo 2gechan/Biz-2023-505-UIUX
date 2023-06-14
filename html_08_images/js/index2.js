@@ -13,6 +13,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // event.target 은 가장 안쪽의 img 가 된다
     const target = event.target;
 
+    // click 된 image 의 src 속성 값을
+    // image_view box 의 imb src 속성에 복사하기
     image_view.src = target.src;
   };
   const tickerBox = document.querySelector("div.image_ticker");
