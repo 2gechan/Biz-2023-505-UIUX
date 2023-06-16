@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+div.container {
+  height: 100%;
+  background-color: ForestGreen;
+  display: flex;
+}
+
+#page1,
+#page2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 100%;
+}
+
+input#textInput {
+  background-color: antiquewhite;
+  margin-top: 20px;
+  height: 30px;
+  width: 200px;
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 4px;
+}
+
+div#button-list {
+  display: flex;
+}
+
+button.btn {
+  background-color: ForestGreen;
+  color: white;
+  border: 1px solid white;
+  border-radius: 7px;
+  padding: 10px 30px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+#page1 button:hover {
+  background-color: orange;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin-top: 50px;
+  border: 1px solid white;
+  padding: 10px 30px;
+  border-radius: 7px;
+}
+
+a:hover {
+  background-color: coral;
+}
+
+#page2 {
+  background-color: DarkOrange;
+}
+
+.slide-in {
+  animation: change 0.5s ease forwards;
+}
+
+@keyframes change {
+  from {
+    transform: translateX(100%);
+    visibility: visible;
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+div.add-list {
+  background-color: blanchedalmond;
+  width: 200px;
+}
+
+ul {
+  display: none;
+  margin-top: 30px;
+  margin-left: 50px;
+}

@@ -12,8 +12,9 @@ html {
 body {
   height: 90%;
   width: 100%;
-  background-color: rgb(208, 233, 248);
-  /* background-image: url("../etc/background.png"); */
+  /* background-color: rgb(208, 233, 248); */
+  background-color: white;
+  background-image: url("../etc/도로.png");
 }
 
 div#all {
@@ -36,20 +37,22 @@ div#all {
 }
 
 .circle {
-  /*[4]*/
   width: 40px;
   height: 40px;
   border-radius: 50%;
   background-color: rgba(0, 0, 0, 0.3);
-  position: relative; /*after사용을 위해 relative 설정*/
+  /* after사용을 위해 relative 설정 */
+  position: relative;
 }
 
 .circle::after {
-  border-right: 4px solid rgba(255, 255, 255, 0.6); /*한부분만 solid 적용*/
+  /* 한부분만 solid 적용 */
+  border-right: 4px solid rgba(255, 255, 255, 0.6);
   content: "";
   width: 30px;
   height: 30px;
-  border-radius: 50%; /* 초승달 모양 만들기 */
+  /* 초승달 모양 만들기 */
+  border-radius: 50%;
   position: absolute;
   top: 5px;
 }
@@ -77,8 +80,8 @@ a {
 
 div#full {
   background-color: burlywood;
-  margin: 70px 50px -70px 200px;
-  height: 600px;
+  margin: 250px 10px -70px 300px;
+  height: 500px;
   width: 1300px;
   border-radius: 20px;
   border: 1px solid rgba(128, 31, 173, 0.7);
@@ -174,6 +177,7 @@ div#light {
 div#bottom {
   display: flex;
   justify-content: space-around;
+  margin-left: 250px;
 }
 
 div#front {
@@ -182,6 +186,8 @@ div#front {
   height: 180px;
   border-radius: 90px;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
+  text-align: center;
+  display: flex;
 }
 
 div#back {
@@ -190,4 +196,10 @@ div#back {
   height: 180px;
   border-radius: 90px;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+div#front div {
+  border-bottom: 7px solid black;
+  width: 180px;
+  height: 90px;
 }

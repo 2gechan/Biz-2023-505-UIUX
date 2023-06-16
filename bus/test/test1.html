@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css" />
+    <script src="./test.js" defer></script>
+  </head>
+  <body class="slide-in">
+    <div class="container">
+      <div id="page1">
+        <h1>Welcome Home</h1>
+        <a href="./test2.html">페이지 이동</a>
+        <input
+          type="text"
+          placeholder="저장할 내용 입력"
+          id="textInput"
+          onkeydown="createList()"
+        />
+        <div id="button-list">
+          <button type="button" id="btnOn" class="btn">목록 보기</button>
+        </div>
+      </div>
+      <div id="lists">
+        <ul></ul>
+      </div>
+    </div>
+  </body>
+</html>
