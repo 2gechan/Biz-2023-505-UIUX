@@ -26,3 +26,14 @@ form#gu {
   width: 700px;
   height: 100%;
 }
+
+img.areaArr {
+  display: none;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  height: 40px;
+  width: 60px;
+}

@@ -15,6 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap"
       rel="stylesheet"
     />
+    <script src="./js/searchArea.js" defer></script>
   </head>
   <body class="slide-in">
     <div id="all">
@@ -29,25 +30,48 @@
           <label for="guSelect">구 선택</label>
           <select name="guSelect" id="gu">
             <option value="1">선택</option>
-            <option value="2">북구</option>
+            <!-- <option value="2">북구</option> -->
             <option value="3" selected>광산구</option>
-            <option value="4">동구</option>
+            <!-- <option value="4">동구</option>
             <option value="4">서구</option>
-            <option value="4">남구</option>
+            <option value="4">남구</option> -->
           </select>
         </form>
         <form action="#">
           <label for="busStopSelect">터미널(정류장)</label>
-          <select name="busStopSelect" id="busStop">
+          <select
+            name="busStopSelect"
+            id="busStop"
+            onchange="selectOption(this.value);"
+          >
             <option value="1" selected>선택</option>
             <option value="2">광주송정역시외버스정류소</option>
             <option value="3">송정리</option>
             <option value="4">우산동(하남)시외버스정류장(승차)</option>
           </select>
-          <input type="submit" value="찾기" />
         </form>
         <div id="area">
-          <img src="./etc/지도.png" alt="" width="700" height="460" />
+          <img
+            src="./etc/광주송정역시외버스정류소.png"
+            alt=""
+            width="700"
+            height="460"
+            class="areaArr"
+          />
+          <img
+            src="./etc/송정리시외버스정류소.png"
+            alt=""
+            width="700"
+            height="460"
+            class="areaArr"
+          />
+          <img
+            src="./etc/우산동(하남)시외버스정류장.png"
+            alt=""
+            width="700"
+            height="460"
+            class="areaArr"
+          />
         </div>
       </div>
     </div>
