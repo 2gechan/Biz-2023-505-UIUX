@@ -14,6 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap"
       rel="stylesheet"
     />
+    <script src="./js/usuallyBus.js"></script>
   </head>
   <body class="slide-in">
     <div id="all">
@@ -25,21 +26,35 @@
           </header>
         </div>
         <table>
-          <th>No.</th>
-          <th>출발지</th>
-          <th>목적지</th>
-          <th>선택</th>
           <tr>
+            <th>No.</th>
+            <th>출발지</th>
+            <th>목적지</th>
+            <th>선택</th>
+          </tr>
+          <tr class="table1">
             <td>1</td>
             <td>문화동 시외버스 정류장</td>
             <td>순창</td>
-            <td><input type="checkbox" name="" id="" /></td>
+            <td>
+              <input
+                type="checkbox"
+                name="check"
+                onclick="checkOnlyOne(this)"
+              />
+            </td>
           </tr>
-          <tr>
+          <tr class="table1">
             <td>2</td>
             <td>광주종합버스터미널(유스퀘어)</td>
             <td>서울</td>
-            <td><input type="checkbox" name="" id="" /></td>
+            <td>
+              <input
+                type="checkbox"
+                name="check"
+                onclick="checkOnlyOne(this)"
+              />
+            </td>
           </tr>
         </table>
         <button>빠른 조회</button>

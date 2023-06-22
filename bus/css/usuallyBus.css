@@ -68,6 +68,14 @@ td {
   border-top: 1px solid #444444;
 }
 
+tr.table1:hover {
+  background-color: #ddd;
+}
+
+input:hover {
+  cursor: pointer;
+}
+
 button {
   margin-top: 20px;
   margin-left: 1300px;
