@@ -11,7 +11,7 @@ html {
 
 body {
   height: 90%;
-  width: 90%;
+  width: 70%;
   background-color: rgb(208, 233, 248);
 }
 
@@ -79,8 +79,8 @@ a {
 
 div#full {
   background-color: burlywood;
-  margin: 0 10px -70px 300px;
-  height: 500px;
+  margin: -50px 10px -70px 300px;
+  height: 600px;
   width: 1300px;
   border-radius: 20px;
   border: 1px solid rgba(128, 31, 173, 0.7);
@@ -183,9 +183,9 @@ div#bottom {
 
 div#front {
   background-color: darkslategray;
-  width: 180px;
-  height: 180px;
-  border-radius: 90px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
   text-align: center;
   display: flex;
@@ -193,9 +193,9 @@ div#front {
 
 div#back {
   background-color: darkslategray;
-  width: 180px;
-  height: 180px;
-  border-radius: 90px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
   text-align: center;
   margin-left: 600px;
