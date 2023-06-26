@@ -11,12 +11,13 @@ html {
 
 body {
   height: 90%;
-  width: 100%;
+  width: 90%;
   background-color: rgb(208, 233, 248);
 }
 
 div#all {
   display: flex;
+  flex-direction: column;
 }
 
 .container {
@@ -78,7 +79,7 @@ a {
 
 div#full {
   background-color: burlywood;
-  margin: 250px 10px -70px 300px;
+  margin: 0 10px -70px 300px;
   height: 500px;
   width: 1300px;
   border-radius: 20px;
@@ -151,6 +152,7 @@ div.select:hover {
 
 article a {
   display: inline;
+  padding: 0;
   font-size: 30px;
   font-family: "Dongle", sans-serif;
 }
@@ -173,9 +175,10 @@ div#light {
 }
 
 div#bottom {
+  width: 100%;
   display: flex;
-  justify-content: space-around;
-  margin-left: 250px;
+  /* justify-content: space-around; */
+  margin-left: 500px;
 }
 
 div#front {
@@ -195,6 +198,7 @@ div#back {
   border-radius: 90px;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
   text-align: center;
+  margin-left: 600px;
 }
 div#front div {
   border-bottom: 7px solid black;
