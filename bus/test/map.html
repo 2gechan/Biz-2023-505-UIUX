@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>키워드로 장소검색하기</title>
+    <script src="./map.js" defer></script>
+  </head>
+  <body>
+    <form action="#">
+      <label for="busStopSelect">터미널(정류장)</label>
+      <select
+        name="busStopSelect"
+        id="busStop"
+        onchange="selectOption(this.value);"
+      >
+        <option value="1" selected>선택</option>
+        <option value="광주송정역시외버스정류소">
+          광주송정역시외버스정류소
+        </option>
+        <option value="송정리">송정리</option>
+        <option value="우산동하남시외버스정류장">
+          우산동(하남)시외버스정류장(승차)
+        </option>
+      </select>
+    </form>
+  </body>
+</html>

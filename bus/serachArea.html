@@ -45,34 +45,20 @@
             onchange="selectOption(this.value);"
           >
             <option value="1" selected>선택</option>
-            <option value="2">광주송정역시외버스정류소</option>
-            <option value="3">송정리</option>
-            <option value="4">우산동(하남)시외버스정류장(승차)</option>
+            <option value="광주송정역시외버스정류소">
+              광주송정역시외버스정류소
+            </option>
+            <option value="송정리시외버스정류소">송정리버스정류소</option>
+            <option value="우산동하남시외버스정류장">
+              우산동(하남)시외버스정류장(승차)
+            </option>
           </select>
         </form>
-        <div id="area">
-          <img
-            src="./etc/광주송정역시외버스정류소.png"
-            alt=""
-            width="700"
-            height="460"
-            class="areaArr"
-          />
-          <img
-            src="./etc/송정리시외버스정류소.png"
-            alt=""
-            width="700"
-            height="460"
-            class="areaArr"
-          />
-          <img
-            src="./etc/우산동(하남)시외버스정류장.png"
-            alt=""
-            width="700"
-            height="460"
-            class="areaArr"
-          />
-        </div>
+        <div id="map" style="width: 500px; height: 500px"></div>
+        <script
+          type="text/javascript"
+          src="//dapi.kakao.com/v2/maps/sdk.js?appkey=393af6ea3a14898bb3bb27dd83f161cc&libraries=services"
+        ></script>
       </div>
     </div>
   </body>
